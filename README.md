@@ -36,7 +36,7 @@ application with the following characteristics:
 	I had an issue with Chrome. If it should occur, just type: chrome://flags/      and check: Allow invalid certificates for resources loaded from localhost
 * Exception Handling <br>
 	is discreetly present at the backend and definitely needs improvement. <br>
-	is not implemented in the UI. <br>
+	is not implemented in the UI (no visuals to see if something went wrong or not). <br>
 * Other thoughts during the exercise: <br>
 	How to use proper Logging. <br>
 	How to use proper Dependency Injection. <br>
