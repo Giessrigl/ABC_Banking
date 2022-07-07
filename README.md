@@ -45,7 +45,7 @@ application with the following characteristics:
 Explanation of why Phonenumbers and Housenumbers are strings too.  => 
 Phonenumbers can be written differently depending on the country (examples: austrian "+43 660/1071254" or american format "+1-202-555-0111") (no specification in the instruction) <br>
 Housenumbers can range from "34" to "Door 2, Staircase 2, Top 10" (no specification in the instruction) <br> <br>
-For the profile picture only .png is allowed, since every image format has to be handled in html <img> tag differently (no specification in the instruction)
+For the profile picture only .png is allowed, since every image format has to be handled in html img-tag differently (no specification in the instruction)
 
 Server-wise:
 DateOfBirth validation is included. Differenciation between various date formats (examples:  DD/MM/YYYY ; MM/DD/YYYY)  is not included. <br>
