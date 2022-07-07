@@ -25,15 +25,15 @@ application with the following characteristics:
 * Mock to invoke all services and display results
 
 ## Annotations
-* Cors
+* Cors <br>
 	Enabled Cors for all Origins (*), since i do not know which port you will be using.
-* Database
+* Database <br>
 	Thought about tables for Person (Firstname & Secondname), Address (Country, City, Streetname, Housenumber) and ContactInfo (all together)
-* Certification Problems
+* Certification Problems <br>
 	I had an issue with Chrome. If it should occur, just type: chrome://flags/      and check: Allow invalid certificates for resources loaded from localhost
-* Exception Handling
+* Exception Handling <br>
 	is discreetly present and definitely needs improvement.
-* Other thoughts during the exercise:
+* Other thoughts during the exercise: <br>
 	How to use proper Logging. <br>
 	How to use proper Dependency Injection. <br>
 	Am I allowed to use third party packages? (since not mentioned in the instruction, I dropped it) <br>
@@ -41,7 +41,7 @@ application with the following characteristics:
 	
 Explanation of why Phonenumbers and Housenumbers are strings too.  => 
 Phonenumbers can be written differently depending on the country (examples: austrian "+43 660/1071254" or american format "+1-202-555-0111") (no specification in the instruction) <br>
-Housenumbers can range from "34" to "Door 2, Staircase 2, Top 10" (no specification in the instruction) <br>
+Housenumbers can range from "34" to "Door 2, Staircase 2, Top 10" (no specification in the instruction) <br> <br>
 For the profile picture only .png is allowed, since every image format has to be handled in html <img> tag differently (no specification in the instruction)
 
 Server-wise:
