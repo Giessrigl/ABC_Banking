@@ -7,12 +7,12 @@ You are required to write a small .NET application with the following characteri
 * .NET Framework 4.7+, C#
 * Use of entity framework
 * Use of SQLite for storage
-* Handling of the following information:
-First name, Second name
-Addresses
-Date of birth
-Phone numbers
-Personal photo
+* Handling of the following information: <br>
+First name, Second name <br>
+Addresses <br>
+Date of birth <br>
+Phone numbers <br>
+Personal photo <br>
 * The .NET application should expose REST services for CRUD operations on the
 cited entities.
 * The .NET application should also expose some service for retrieving massively
@@ -34,10 +34,10 @@ application with the following characteristics:
 * Exception Handling
 	is discreetly present and definitely needs improvement.
 * Other thoughts during the exercise:
-	How to use proper Logging.
-	How to use proper Dependency Injection.
-	Am I allowed to use third party packages? (since not mentioned in the instruction, I dropped it)
-	EF6 with SQLite (version for .Net framework 4.7) not able to add Database and Tables at runtime if they do not exist
+	How to use proper Logging. <br>
+	How to use proper Dependency Injection. <br>
+	Am I allowed to use third party packages? (since not mentioned in the instruction, I dropped it) <br>
+	EF6 with SQLite (version for .Net framework 4.7) not able to add Database and Tables at runtime if they do not exist. <br>
 	
 Explanation of why Phonenumbers and Housenumbers are strings too.  => 
 Phonenumbers can be written differently depending on the country (examples: austrian "+43 660/1071254" or american format "+1-202-555-0111") (no specification in the instruction)
