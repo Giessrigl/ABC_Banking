@@ -40,20 +40,18 @@ application with the following characteristics:
 	EF6 with SQLite (version for .Net framework 4.7) not able to add Database and Tables at runtime if they do not exist. <br>
 	
 Explanation of why Phonenumbers and Housenumbers are strings too.  => 
-Phonenumbers can be written differently depending on the country (examples: austrian "+43 660/1071254" or american format "+1-202-555-0111") (no specification in the instruction)
-Housenumbers can range from "34" to "Door 2, Staircase 2, Top 10" (no specification in the instruction)
+Phonenumbers can be written differently depending on the country (examples: austrian "+43 660/1071254" or american format "+1-202-555-0111") (no specification in the instruction) <br>
+Housenumbers can range from "34" to "Door 2, Staircase 2, Top 10" (no specification in the instruction) <br>
 For the profile picture only .png is allowed, since every image format has to be handled in html <img> tag differently (no specification in the instruction)
 
 Server-wise:
-DateOfBirth validation is included. Differenciation between various date formats (examples:  DD/MM/YYYY ; MM/DD/YYYY)  is not included.
-Phonenumber validation is not included.
+DateOfBirth validation is included. Differenciation between various date formats (examples:  DD/MM/YYYY ; MM/DD/YYYY)  is not included. <br>
+Phonenumber validation is not included. <br>
 Image validation is not included. 
 
 ## Setup
-Run backend only in Visual Studio (IIS) -> if you need to build the application, make sure to include the ./AppData/ABC.sqlite file in the root directory of the built executable.
-
+Run backend only in Visual Studio (IIS) -> if you need to build the application, make sure to include the ./AppData/ABC.sqlite file in the root directory of the built executable. <br>
 Run frontend with Visual Studio Code (Live Server) or terminal (node index.js) -> might need to change the URL in the GetURL function of ./public/main.js
 
-Searching for names and addresses is a static search (no fuzzy search)
-
+Searching for names and addresses is a static search (no fuzzy search) <br>
 Searching for an age range - pattern: min,max  (example to find age range between 20 and 30 = 20,30)
