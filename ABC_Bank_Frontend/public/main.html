@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>ABC_Bank</title>
+
+      <link rel="stylesheet" href="style.css">
+      <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+      <div class="horizontal-center" id="submitForm">
+            <h4>Person</h4>
+            <br>
+            <div>
+                  <input type="text" id="firstname" placeholder="Firstname">
+                  <input type="text" id="secondname" placeholder="Secondname">
+                  <div>
+                        <br>
+                        <input type="number" id="dateOfBirthDay" placeholder="Date of Birth: Day">
+                        <input type="number" id="dateOfBirthMonth" placeholder="Date of Birth: Month">
+                        <input type="number" id="dateOfBirthYear" placeholder="Date of Birth: Year">
+                  </div>
+            </div>
+            <div>
+                  <h4>Your profile picture:</h4>
+                  <input type="file" id="profilepicture" accept=".png">
+            </div>
+            <h4>Contact information</h4>
+            <div>
+                  <input type="text" id="phonenumber" placeholder="Phonenumber">
+            </div>
+            <div>
+                  <br>
+                  <div>
+                        <input type="text" id="country" placeholder="Country">
+                        <input type="text" id="city" placeholder="City">
+                  </div>
+                  <div>
+                        <input type="text" id="streetname" placeholder="Streetname">
+                        <input type="text" id="housenumber" placeholder="Housenumber">
+                  </div>
+            </div>
+            <br>
+            <button type="button" id="submitBtn" onclick="SubmitContactInfo()">Submit</button>
+      </div>
+      <hr>
+      <div id="ContactList">
+            <div>
+                  <br>
+                  <input type="text" id="searchbar" placeholder="Search...">
+                  <button type="button" id="nameSearch" onclick="ReceiveContacts('name')">Search for names</button>
+                  <button type="button" id="addressSearch" onclick="ReceiveContacts('address')">Search for addresses</button>
+                  <button type="button" id="ageSearch" onclick="ReceiveContacts('age')">Search for age range</button>
+            </div>
+            <ul id="contacts">
+            </ul>
+      </div>
+</body>
+</html>
