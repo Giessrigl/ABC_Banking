@@ -51,7 +51,9 @@ Image validation is not included.
 
 ## Setup
 Run backend only in Visual Studio (IIS) -> if you need to build the application, make sure to include the ./AppData/ABC.sqlite file in the root directory of the built executable.
+
 Run frontend with Visual Studio Code (Live Server) or terminal (node index.js) -> might need to change the URL in the GetURL function of ./public/main.js
 
 Searching for names and addresses is a static search (no fuzzy search)
+
 Searching for an age range - pattern: min,max  (example to find age range between 20 and 30 = 20,30)
