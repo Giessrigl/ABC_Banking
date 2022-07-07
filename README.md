@@ -49,7 +49,7 @@ For the profile picture only .png is allowed, since every image format has to be
 
 Server-wise:
 DateOfBirth validation is included. Differenciation between various date formats (examples:  DD/MM/YYYY ; MM/DD/YYYY)  is not included. <br>
-Phonenumber validation is not included. <br>
+Phonenumber validation is not included. Phonenumbers have to be unique. <br>
 Image validation is not included. 
 
 ## Setup
