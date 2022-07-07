@@ -13,9 +13,9 @@ Addresses <br>
 Date of birth <br>
 Phone numbers <br>
 Personal photo <br>
-* The .NET application should expose REST services for CRUD operations on the
+The .NET application should expose REST services for CRUD operations on the
 cited entities.
-* The .NET application should also expose some service for retrieving massively
+The .NET application should also expose some service for retrieving massively
 the data based on the following optional criteria:
 Free search on Names and Addresses
 Range of age (from/to)
