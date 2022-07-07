@@ -19,9 +19,9 @@ Personal photo <br>
 The .NET application should expose REST services for CRUD operations on the
 cited entities.
 The .NET application should also expose some service for retrieving massively
-the data based on the following optional criteria:
-Free search on Names and Addresses
-Range of age (from/to)
+the data based on the following optional criteria: <br>
+Free search on Names and Addresses <br>
+Range of age (from/to) <br>
 To complete the programming exercise you are also required to write a small Front-End
 application with the following characteristics:
 * Static simple HTML page and Javascript
