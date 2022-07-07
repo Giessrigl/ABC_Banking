@@ -1,4 +1,7 @@
 # ABC_Banking
+1. Description
+2. Annotations
+3. Setup
 
 ## Description
 ABC Bank wants to implement a new system to manage a list of contacts with personal data
